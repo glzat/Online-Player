@@ -27,5 +27,4 @@ with open("steamcharts.csv","w",encoding="utf-8") as f:
             else:
                 f.write(f"{game_name},{game_current_players},{game_peak_players},{game_hours_played}\n")
         print(f"Successfully saved the Page{page_num}")
-print("All done!")
-    
+print("All done!")    
